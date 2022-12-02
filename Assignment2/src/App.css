@@ -1,0 +1,17 @@
+.main{
+  background-color: #37403d;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+};
+
+.status{
+  font-weight: bold;
+  font-size: 0.75rem;
+  color: white;
+  border-radius: 8;
+  padding: 3px 10px;
+  display: inline-block;
+};
