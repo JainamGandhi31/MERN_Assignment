@@ -25,26 +25,6 @@ function sum(numbers){
     }
 
     return totalSum;
-    // var totalSum=0; // to store sum
-    // var buffer="";
-
-    // for(let i=0;i<str.length;i++)
-    // {
-    //     if(str[i]>='0' && str[i]<='9') //if the current cht
-    //         buffer+=str[i];
-    //     else{
-    //         if(buffer.length) // extract number from the buffer and add to the answer
-    //         {
-    //             totalSum+=parseInt(buffer);
-    //             buffer=""; // reset buffer
-    //         }
-    //     }
-    // }
-    // // if there is still some number left in the buffer, add it to the answer
-    // if(buffer.length) 
-    // totalSum+=parseInt(buffer);
-
-    // return totalSum;
 }
 
 const numbers = "1,2_9,4-3,4^7,5,*7-,99,8,7,5,9,2,1->80";
